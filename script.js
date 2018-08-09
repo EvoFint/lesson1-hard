@@ -1,10 +1,10 @@
 /* Task 1 */
 var num = 33721;
-var numSumm = eval(num.toString().split('').join('+'))
+var numMult = eval(num.toString().split('').join('*'));
 
-console.log(numSumm);
+console.log(numMult);
 
 /* Task 2 */
-var numSummPower = Math.pow(numSumm, 3);
+var numMultPower = Math.pow(numMult, 3);
 
-console.log(numSummPower.toString().substring(0,2));
+console.log(numMultPower.toString().substring(0,2));
